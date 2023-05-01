@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Future of Abbey Arts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+	<!-- Required JavaScript files -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+	<div id="landing">
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1 class="landing-header animate-charcter">THE FUTURE OF ABBEY ARTS</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="abt" data-aos="fade-up" data-aos-duration="3000">
+			<div class="abt row">
+				<div class="col">
+					<img class="about-img" src="src/sound-board-transparent-1.png" alt="Sound Board Drawing">
+				</div>
+				<div class="col-sm-7 col-md-6 container">
+					<h1 class="title">WHO IS ABBEY ARTS?</h1>
+					<div class="p-text">
+						Abbey Arts is an independent, non-religious, nonprofit providing creative events at
+						unusual spaces around Seattle. This organization aims to create affordable, welcoming and
+						inclusive experiences where people can learn and develop through education and
+						performance in many different art mediums. Ultimately, Abbey Arts strives to be a
+						community-driven,
+						volunteer-powered organization, that hosts events that are made of a comfortable
+						safe space where a wide variety of people from different income levels, skills, ethnicities,
+						backgrounds can interact.<a href='https://www.fremontabbey.org/' target="_blank"> View
+							Website</a>.
+					</div>
+					<div class="btn-missionstatement">
+						<a class="btn btn-custom" data-bs-toggle="collapse" href="#collapse-missionstatement"
+							role="button" aria-expanded="false" aria-controls="collapse-missionstatement">
+							MISSION STATEMENT ▼
+						</a>
+					</div>
+					<div class="collapse" id="collapse-missionstatement">
+						<div class="card card-body">
+
+							<div class="p-text">
+								Abbey Arts curates welcoming arts & cultural experiences for people of all ages
+								and incomes to explore <strong class="bolded-text">creativity, enjoy beauty, grow
+									empathy and increase awareness</strong>.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div id="problem-statement" data-aos="fade-up" data-aos-duration="2000">
+				<h1 class="title center-title">PROBLEM STATEMENT</h1>
+				<p class="ps-text justify-content-center">
+					How might we enable Abbey Arts to achieve a robust, well-designed, and user-friendly
+					website so that they can attract a larger audience and further engage the community?
+
+				<div class="d-flex justify-content-center btn-informationproblem">
+					<a class="btn btn-custom btn-informationproblem" data-bs-toggle="collapse"
+						href="#collapse-informationproblem" role="button" aria-expanded="false"
+						aria-controls="collapse-informationproblem">
+						INFORMATION PROBLEM ▼
+					</a>
+				</div>
+
+				<div class="collapse" id="collapse-informationproblem">
+					<div class="card card-body">
+						Our information solution will aim to improve website design and seamless
+						integrations for the current Abbey Arts website. For website design, we want to focus on
+						branding, navigation, interactions, and content. Specifically, we want to conduct thorough
+						primary and secondary UI/UX research to ensure that our proposed designs and approach to
+						development reflects contemporary trends in how performing arts organizations
+						advertise themselves via their websites. In doing so, we can ensure that users have a
+						positive experience on Abbey Arts' website that will encourage them to stay on the site
+						longer, make purchases, and return to Abbey Arts (both online and in-person) in the
+						future.<br><br> For integrations, we want to focus on the G Suite and analytics. By
+						providing this solution, users will be able to understand the purpose of information on
+						the website and easily comprehend the events and programs possible through Abbey
+						Arts, hopefully increasing website traffic and ticket sales as well. The way
+						information on the site is presented to potential customers, performers, and facility
+						renters
+						is crucial to how they initially perceive Abbey Arts, particularly if the site is
+						their first encounter they have with the organization.
+					</div>
+				</div>
+			</div>
+
+			<div id="problem-statement" data-aos="fade-up" data-aos-duration="2000">
+				<h1 class="title center-title">PROJECT GOAL</h1>
+				<p class="ps-text justify-content-center">
+					To create a website for Abbey Arts, a local nonprofit arts organization looking to
+					streamline the online experience of guests and potential renters, as well as boost
+					their profile in the arts community. The site is outdated and needs to be modernized.
+
+				<div class="d-flex justify-content-center btn-projectbackground">
+					<a class="btn btn-custom btn-projectbackground" data-bs-toggle="collapse"
+						href="#collapse-projectbackground" role="button" aria-expanded="false"
+						aria-controls="collapse-projectbackground">
+						PROJECT BACKGROUND ▼
+					</a>
+				</div>
+
+				<div class="collapse" id="collapse-projectbackground">
+					<div class="card card-body">
+						As a non-profit, Abbey Arts' limited resources prevent them from pursuing all projects,
+						one of them being the creation of an effective and robust website. The absence of a
+						modern, user-friendly, and well-designed website reduces their ability to
+						attract more customers and performers. Currently, the outdated website is challenging to
+						navigate, has no clear design scheme, and gives a sense of information overload. These
+						aspects of website design and function are crucial to maintaining a customer base and
+						creating a user-friendly experience. Additionally, the back-end processes are not
+						streamlined which causes disconnect in internal business processes. Without a strong
+						functioning
+						website and clear communication with customers and attendees, Abbey Arts is unsuccessful
+						in fulfilling their mission to engage and connect the Seattle community through live
+						music and the arts.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="abt" data-aos="fade-up" data-aos-duration="2000">
+			<div class="abt row">
+				<div class="col-sm-7 col-md-6 container">
+					<h1 class="title">WHY IS THIS IMPORTANT?</h1>
+					<div class="p-text">
+						As a non-profit, Abbey Arts' limited resources prevents them from pursuing all
+						projects, one of them being the creation of an effective and robust website. The absence of a
+						modern, user-friendly, and well-designed website reduces their ability to attract
+						more customers and performers. Currently, the outdated website is challenging to
+						navigate, has no clear design scheme, and gives a sense of information overload. These aspects
+						of website design and function are crucial to maintaining a customer base and creating
+						a user-friendly experience. Additionally, the back-end processes are not streamlined
+						which causes disconnect in internal business processes. Without a strong functioning
+						website and clear communication with customers and attendees, Abbey Arts is unsuccessful in
+						fulfilling their mission to engage and connect the Seattle community through live
+						music and the arts.
+					</div>
+				</div>
+				<div class="col">
+					<img class="important-img" src="src/window-transparent-2.png" alt="Fremont Abbey Window">
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div id="benefit">
+				<h1 class="title center-title">BENEFITS TO OUR SOLUTION</h1>
+
+				<div>
+					<div class="row">
+						<div class="col col-sm-12 col-md-6 col-lg-3 icon" data-aos="fade-up" data-aos-duration="2000">
+							<div class="benefit">
+								<img class="icon-img" src="src/touchpad_mouse.svg">
+								<p>Improve user interface to make it easier to find information</p>
+							</div>
+						</div>
+						<div class="col col-sm-12 col-md-6 col-lg-3 icon" data-aos="fade-up" data-aos-duration="2000">
+							<div class="benefit">
+								<img class="icon-img" src="src/update.svg">
+								<p>Simplify website management and information updates for Abbey Arts stakeholders</p>
+							</div>
+						</div>
+						<div class="col col-sm-12 col-md-6 col-lg-3 icon" data-aos="fade-up" data-aos-duration="2000">
+							<div class="benefit">
+								<img class="icon-img" src="src/person.svg">
+								<p>Attract more event attendees, performers, and facility renters</p>
+							</div>
+						</div>
+						<div class="col col-sm-12 col-md-6 col-lg-3 icon" data-aos="fade-up" data-aos-duration="2000">
+							<div class="benefit">
+								<img src="src/ads_click.svg">
+								<p>Drive more traffic to a nonprofit operating on limited time and budget</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div>
+			<h1 class="title center-title">DESIGN PROCESS</h1>
+			<img class="design-process" src="src/design-process.png" data-aos="fade-up" data-aos-duration="2000">
+			
+			<div id="design-process">
+				<div class="d-flex justify-content-center learn-more m-2">
+					<button type="button" class="btn btn-custom" data-bs-toggle="modal"
+						data-bs-target="#designprocessModal">LEARN MORE</button>
+				</div>
+				<div class="modal fade" id="designprocessModal" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="missionStatementModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="designprocessModalLabel">OUR DESIGN PROCESS</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<h2 class="mb-1 p-header underline">DEFINE</h2>
+								<p class="text">
+									Our <strong>problem statement</strong> stated above clearly defines the problem
+									we are trying to solve in a
+									way that is specific, measurable, and achievable. It also take into account
+									the needs and requirements of the users or stakeholders.<br><br>
+
+									Our <strong>project goal</strong> defines the desired outcome of the project and
+									provides a
+									clear direction for the rest of the design process. It aligns with the
+									problem statement and takes into account the resources, time, and budget
+									available.<br><br>
+
+									Our <strong>information problem</strong> has a clear understanding of the
+									current state of knowledge
+									about the problem and any gaps that need to be filled in order to solve it. It
+									includes an analysis of the information needs of the users or stakeholders and
+									an
+									understanding of the sources and types of information that are
+									available.<br><br>
+
+									Overall, the Define stage was critical for setting the foundation for the rest
+									of the
+									design process and ensuring that the project is aligned with the needs of the
+									users
+									or stakeholders.<br><br>
+								</p>
+
+								<h2 class="mb-1 p-header">RESEARCH</h2>
+								<p class="text">
+
+									Our <strong>insight research</strong> uncovered user needs, pain points, and
+									behaviors
+									for our project.
+									It was essential to the initial stages of our project as it provided valuable
+									insights
+									that informed the design of
+									user-centered products and services that needed to be addressed. To conduct this
+									research, we held user interviews and usability tests
+									throughout the entire design process to ensure that user needs are met.<br><br>
+
+									Our <strong>user research</strong> helped gain insights into users' motivations,
+									goals,
+									and pain points so that we could make well-informed decisions
+									about how to design the product so that it be both usable and enjoyable to use. One
+									of
+									our biggest learning experiences was attending an Abbey Arts
+									event and getting to know our user group. <br><br>
+
+									Our <strong>market research</strong> involved collecting and analyzing other similar
+									existing websites, such as Neumos or The Crocadile Venues. The knowledge
+									gained from this information was used to better understand the user needs and
+									preferences, which further informed the development of the product and service.
+									Additionally, it helped identify emerging trends and changes in user behavior, which
+									likewise informed marketing and branding strategies.<br><br>
+
+									Our <strong>literature review</strong> involved gathering and analyzing existing
+									literature to gain insights into the current state of knowledge, identify gaps
+									in the research, and synthesize findings.<br><br>
+								</p>
+								<h2 class="mb-1 p-header">IDEATE</h2>
+								<p class="text">
+									Please refer to the images below for our <strong>prototypes</strong> and
+									<strong>wireframes</strong> throughout the project.<br><br>
+								</p>
+							</div>
+							<div class="modal-footer">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="justify-content-center">
+				<div id="importance">
+
+					<div class="d-flex justify-content-center m-2">
+						<a class="btn btn-custom" data-bs-toggle="collapse" href="#collapse-images" role="button"
+							aria-expanded="false" aria-controls="collapse-images">
+							DESIGN INTERATIONS ▼
+						</a>
+					</div>
+
+					<div class="collapse" id="collapse-images">
+						<div class="card card-body">
+							<img class="design-process" src="src/personas.png">
+							<img class="design-process" src="src/interations.png">
+							<img class="design-process" src="src/mvps.png">
+							<img class="design-process" src="src/wireframes.png">
+							<img class="design-process" src="src/color-palettes.png">
+							<img class="design-process" src="src/color-palettes-2.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="team">
+			<h1 class="title center-title">MEET THE TEAM</h1>
+			<img class="design-process" src="src/team-profile.png" data-aos="fade-up" data-aos-duration="2000">
+		</div>
+
+	</div>
+	</div>
+</body>
+
+<footer>
+	<div class="contain">
+		<p>&copy; 2023 THE FUTURE OF ABBEY ARTS</p>
+	</div>
+</footer>
+</html>
