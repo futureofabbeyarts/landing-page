@@ -14,16 +14,17 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 	<script src="script.js" defer></script>
 	<link rel="stylesheet" href="css/updated-css.css">
 	<link rel="icon" type="image/x-icon" href="src/favicon.ico">
 
+
+
 </head>
 
 <body>
-
 	<div id="landing">
 		<div class="header">
 			<div class="container">
@@ -50,8 +51,9 @@
 						community-driven,
 						volunteer-powered organization, that hosts events that are made of a comfortable
 						safe space where a wide variety of people from different income levels, skills, ethnicities,
-						backgrounds can interact.<a href='https://www.fremontabbey.org/' target="_blank"> View
-							Website</a>.
+						backgrounds can interact. Follow the link to view the <a href='https://www.fremontabbey.org/'
+							target="_blank" class="p-text">
+							Original Website.
 					</div>
 					<div class="btn-missionstatement">
 						<a class="btn btn-custom" data-bs-toggle="collapse" href="#collapse-missionstatement"
@@ -208,7 +210,7 @@
 		<div>
 			<h1 class="title center-title">DESIGN PROCESS</h1>
 			<img class="design-process" src="src/design-process.png" data-aos="fade-up" data-aos-duration="2000">
-			
+
 			<div id="design-process">
 				<div class="d-flex justify-content-center learn-more m-2">
 					<button type="button" class="btn btn-custom" data-bs-toggle="modal"
@@ -296,37 +298,125 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="justify-content-center">
-				<div id="importance">
 
-					<div class="d-flex justify-content-center m-2">
-						<a class="btn btn-custom" data-bs-toggle="collapse" href="#collapse-images" role="button"
-							aria-expanded="false" aria-controls="collapse-images">
-							DESIGN ITERATIONS ▼
-						</a>
+		<div>
+			<h1 class="title center-title">DESIGN JOURNEY</h1>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<p class="img-title">ITERATION 1</p>
+						<img src="src/iterations/i-1.jpg" class="img-fluid" data-toggle="modal" data-target="#i-1">
 					</div>
+					<div class="col-md-3">
+						<p class="img-title">ITERATION 2</p>
+						<img src="src/iterations/i-2.jpg" class="img-fluid" data-toggle="modal" data-target="#i-2">
+					</div>
+					<div class="col-md-3">
+						<p class="img-title">ITERATION 3</p>
+						<img src="src/iterations/i-3.jpg" class="img-fluid" data-toggle="modal" data-target="#i-3">
+					</div>
+					<div class="col-md-3">
+						<p class="img-title">FINAL MVP</p>
+						<img src="src/iterations/final.jpg" class="img-fluid" data-toggle="modal"
+							data-target="#final">
+					</div>
+				</div>
+			</div>
 
-					<div class="collapse" id="collapse-images">
-						<div class="card card-body">
-							<img class="design-process" src="src/personas.png">
-							<img class="design-process" src="src/interations.png">
-							<img class="design-process" src="src/mvps.png">
-							<img class="design-process" src="src/wireframes.png">
-							<img class="design-process" src="src/color-palettes.png">
-							<img class="design-process" src="src/color-palettes-2.png">
+			<!-- Modal -->
+			<div class="modal fade" id="i-1" tabindex="-1" role="dialog" aria-labelledby="i-1" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<p>ITERATION 1</p>
+
+							<img src="src/iterations/i-1.jpg" class="img-fluid">
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="team">
-			<h1 class="title center-title">MEET THE TEAM</h1>
-			<img class="design-process" src="src/team-profile.png" data-aos="fade-up" data-aos-duration="2000">
-		</div>
+			<div class="modal fade" id="i-2" tabindex="i-2" role="dialog" aria-labelledby="i-2" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<p>ITERATION 2</p>
+							<img src="src/iterations/i-2.jpg" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
 
-	</div>
+			<div class="modal fade" id="i-3" tabindex="i-3" role="dialog" aria-labelledby="i-3" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<p>ITERATION 3</p>
+							<img src="src/iterations/i-3.jpg" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="final" tabindex="-1" role="dialog" aria-labelledby="final" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<p>FINAL MVP</p>
+
+							<img src="src/iterations/final.jpg" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div>
+				<h1 class="title center-title">SIDE-BY-SIDE COMPARISON</h1>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<p class="img-title">ORIGINAL</p>
+							<img src="src/original.png" class="img-fluid" data-toggle="modal" data-target="#original">
+						</div>
+						<div class="col-md-6">
+							<p class="img-title">UPDATED</p>
+							<img src="src/updated.png" class="img-fluid" data-toggle="modal" data-target="#updated">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="original" tabindex="original" role="dialog" aria-labelledby="original" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="src/original.png" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="updated" tabindex="updated" role="dialog" aria-labelledby="updated" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="src/updated.png" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="team">
+				<h1 class="title center-title">MEET THE TEAM</h1>
+				<img class="design-process" src="src/team-profile-alphabetical.png">
+			</div>
+
+		</div>
 	</div>
 </body>
 
@@ -335,4 +425,5 @@
 		<p>&copy; 2023 THE FUTURE OF ABBEY ARTS</p>
 	</div>
 </footer>
+
 </html>
